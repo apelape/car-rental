@@ -25,6 +25,3 @@ if __name__ == "__main__":
 
 db = Neo4jConnection()
 
-print("URI:", os.getenv("NEO4J_URI"))
-print("User:", os.getenv("NEO4J_USER"))
-print("Password:", os.getenv("NEO4J_PASSWORD"))
